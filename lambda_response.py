@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     response = {
         "statusCode": 200,
         "headers": {
-            "Access-Controll-Allow-Origin": "*",
+            "Access-Control-Allow-Origin": "*",
         },
         "body": "Michael Zarate"
     }
